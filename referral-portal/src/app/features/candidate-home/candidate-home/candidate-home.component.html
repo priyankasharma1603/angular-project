@@ -1,0 +1,12 @@
+<div class="container">
+  <app-search></app-search>
+  <div class="card">
+    <div class="card-header">Referrals</div>
+    <app-list-card [data]="referrals"></app-list-card>
+  </div>
+  <div class="card">
+    <div class="card-header">Services</div>
+    <app-list-card [data]="services"></app-list-card>
+  </div>
+  <button class="btn btn-secondary" (click)="logout()">Logout</button>
+</div>
